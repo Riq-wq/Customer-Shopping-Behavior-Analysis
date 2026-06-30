@@ -25,10 +25,10 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
+  https://github.com/Riq-wq/Customer-Shopping-Behavior-Analysis.git
+
    ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+2. **Open Customer_trends_cleaning.ipynb notebook**
 
     This file contains:
 
@@ -46,7 +46,7 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
       - Run Python code to load data into SQL database
   
-      - Open **customer_behavior_sql_queries.sql**
+      - Open **customer_shopping_behaviour.sql**
   
       - Answer Business Questions using SQL Queries 
       
@@ -64,21 +64,10 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
   
 
 
-
-## 📜 License
-
-MIT — feel free to fork, star, and use in your portfolio.
-
 ## 👨‍💻 About the Author
 Hey, I’m Hassan Jumaa, a Data Analyst & part time software developer.
-I break down complex data topics into simple, practical content that actually helps you land a job.
-
-
-📺 Instagram: [datacareerschool](https://www.instagram.com/datacareerschool/)
-- Quick SQL tips, data memes, and behind-the-scenes content
-
 💼 LinkedIn: https://www.linkedin.com/in/mrisa-juma-56a600416
 - Let’s connect professionally and grow your data career
 
 
-## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
+## 💡 Thanks for checking out the project! 
