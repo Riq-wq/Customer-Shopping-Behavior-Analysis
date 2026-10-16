@@ -1,73 +1,123 @@
-# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
+# Customer Shopping Behavior Analysis
 
-This project is perfect for:
-- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
-- 📚 Anyone learning Python, SQL, and Power BI
-- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
+## Project Overview
 
+This project demonstrates an end-to-end data analytics workflow using Python, SQL, and Power BI. It analyzes customer shopping behavior to identify purchasing patterns, customer segments, and insights that can support better business decisions.
 
+The project covers data cleaning, exploratory data analysis, SQL querying, dashboard development, and business reporting.
 
-## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
+## Business Objectives
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+- Understand customer purchasing patterns and preferences.
+- Analyze customer segments and shopping frequency.
+- Explore relationships between discounts, promotions, and purchasing behavior.
+- Develop interactive visualizations to communicate findings.
+- Provide data-driven insights to support business decisions.
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+## Tools and Technologies
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+- **Python:** Data cleaning, transformation, and exploratory data analysis.
+- **Pandas:** Data manipulation and analysis.
+- **Matplotlib and Seaborn:** Data visualization.
+- **MySQL:** Database storage and SQL analysis.
+- **Power BI:** Interactive dashboard development.
+- **Jupyter Notebook:** Python analysis environment.
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+## Project Files
 
+| File | Description |
+|---|---|
+| `customer_shopping_behavior.csv` | Dataset used for the analysis |
+| `customer trends cleaning.ipynb` | Python data cleaning and exploratory analysis |
+| `customer-shopping-behavior.sql` | SQL queries for business analysis |
+| `customer_behavior_dashboard.pbix` | Interactive Power BI dashboard |
+| `Business Problem Document.pdf` | Business problem definition |
+| `Customer Shopping Behavior Analysis.pdf` | Project report |
+| `Customer-Shopping-Behavior-Analysis.pptx` | Project presentation |
 
+## Project Workflow
 
-## 🛠️ How to Use This Project
+### 1. Data Cleaning and Exploration
 
-1. **Clone the repository**
-   ```bash
-  https://github.com/Riq-wq/Customer-Shopping-Behavior-Analysis.git
+The Python notebook covers:
 
-   ```
-2. **Open Customer_trends_cleaning.ipynb notebook**
+- Loading and inspecting the dataset.
+- Checking for missing values and duplicate records.
+- Handling missing values.
+- Standardizing column names.
+- Creating customer age groups.
+- Converting shopping frequency into numerical day intervals.
+- Preparing the data for further analysis.
 
-    This file contains:
+### 2. SQL Analysis
 
-      - Data Import
+The SQL script contains queries used to investigate customer shopping behavior and answer business questions.
 
-      - Data exploration
+The analysis can explore customer segments, purchase amounts, product categories, discounts, and shopping frequency.
 
-      - Data cleaning
+### 3. Power BI Dashboard
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+The Power BI dashboard presents customer shopping insights through visualizations and summary metrics, helping users explore trends and compare customer groups.
 
-      - Create a database in SQL
+Open `customer_behavior_dashboard.pbix` using Power BI Desktop.
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_shopping_behaviour.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
+### 4. Reporting and Presentation
 
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
+The project report and presentation communicate the analysis, key findings, and potential business recommendations.
 
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
+## How to Run the Project
 
+### Step 1: Clone the repository
 
-## 👨‍💻 About the Author
-Hey, I’m Hassan Jumaa, a Data Analyst & part time software developer.
-💼 LinkedIn: https://www.linkedin.com/in/mrisa-juma-56a600416
-- Let’s connect professionally and grow your data career
+```bash
+git clone https://github.com/Riq-wq/Customer-Shopping-Behavior-Analysis.git
+cd Customer-Shopping-Behavior-Analysis
+```
 
+### Step 2: Set up Python
 
-## 💡 Thanks for checking out the project! 
+Install Python and Jupyter Notebook, then install the required libraries:
+
+```bash
+pip install pandas matplotlib seaborn sqlalchemy pymysql python-dotenv
+```
+
+### Step 3: Run the notebook
+
+Open `customer trends cleaning.ipynb` in Jupyter Notebook.
+
+Ensure the dataset `customer_shopping_behavior.csv` is available at the path used in the notebook.
+
+### Step 4: Configure MySQL
+
+Install and start MySQL, then create the database required by the notebook.
+
+Configure your database credentials using environment variables in a local `.env` file. Never commit `.env` or expose database passwords in notebooks.
+
+Run the notebook cells in order to connect to MySQL and load the prepared data.
+
+### Step 5: Run the SQL queries
+
+Open `customer-shopping-behavior.sql` in MySQL Workbench or another compatible SQL client. Ensure the database and table exist before executing the queries.
+
+### Step 6: Open the dashboard
+
+Open `customer_behavior_dashboard.pbix` in Power BI Desktop. Configure the data source if necessary.
+
+## Key Learning Outcomes
+
+- Practical data cleaning and exploratory data analysis.
+- Using SQL to investigate business questions.
+- Connecting Python workflows with a relational database.
+- Designing dashboards for communicating analytical insights.
+- Translating data findings into business recommendations.
+
+## About the Author
+
+**Hassan Jumaa**
+
+Data Analyst and Software Developer
+
+LinkedIn: [Connect with me](https://www.linkedin.com/in/mrisa-juma-56a600416)
+
+Thank you for exploring this project!
